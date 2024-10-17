@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
 }
 
@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.appHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +22,77 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  color: #0056b3;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button-increment {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-decrement {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-reset {
+  background-color: #ffc107;
+  color: black;
+}
+
+.button-fetch {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.positive-indicator {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.negative-indicator {
+  font-weight: bold;
+  color: #dc3545;
 }
 
 .App-link {
